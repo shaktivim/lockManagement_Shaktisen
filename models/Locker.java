@@ -1,14 +1,18 @@
 
 package lockerLLD_Shaktisen.models;
 
+// creating locker class where we can get and set locker properties
 
 public class Locker {
+
+    // defining locker properties such as its id, passcode, bookingStatus, its space size and locker cost rate per day
     public String lockerId;
     public String passcode;
     public Boolean bookingStatus;
     public int lockerSize;
     public int lockerRateperDay;
 
+    // constructor for locker
     public Locker(String lockerId, String passcode, Boolean bookingStatus, int lockerSize, int lockerRateperDay){
         this.lockerId = lockerId;
         this.passcode = passcode;
