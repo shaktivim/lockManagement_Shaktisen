@@ -6,11 +6,11 @@ package lockerLLD_Shaktisen.models;
 public class Locker {
 
     // defining locker properties such as its id, passcode, bookingStatus, its space size and locker cost rate per day
-    public String lockerId;
-    public String passcode;
-    public Boolean bookingStatus;
-    public int lockerSize;
-    public int lockerRateperDay;
+    public String lockerId;             //constant
+    public String passcode;             //mutable       
+    public Boolean bookingStatus;       //mutable
+    public int lockerSize;              //constant
+    public int lockerRateperDay;        //constant
 
     // constructor for locker
     public Locker(String lockerId, String passcode, Boolean bookingStatus, int lockerSize, int lockerRateperDay){
